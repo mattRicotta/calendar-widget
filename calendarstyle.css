@@ -1,0 +1,77 @@
+/* styling for the calendar */
+.ui-datepicker {
+    font-family: 'Helvetica' !important;
+    border-radius: 0% !important;
+    padding:10px !important;
+}
+
+/* calendar class */
+.ui-datepicker-inline {
+
+}
+
+.ui-widget-header {
+
+}
+
+.ui-corner-all {
+    border-radius: 0%;
+}
+
+/* calendar header */
+.ui-datepicker-header {
+    border: none !important;
+    border-radius: 0% !important;
+    background: none #ccc 0 !important;
+}
+
+/* next and prev buttons in header */
+.ui-datepicker-prev, .ui-datepicker-next {
+    border-radius: 0% !important;
+}
+
+/* calendar title (month & year) */
+.ui-datepicker-title {
+
+}
+
+/* weekend heading */
+.ui-datepicker-week-end {
+
+}
+
+/* calendar body */
+.ui-datepicker-calendar {
+    table-layout: fixed !important;
+}
+
+/* current day */
+.ui-datepicker-current-day {
+
+}
+
+/* today? */
+.ui-datepicker-today {
+
+}
+
+.ui-datepicker-days-cell-over {
+    
+}
+
+.ui-datepicker-unselectable {
+
+}
+
+.ui-state-disabled {
+
+}
+
+.ui-state-default {
+
+}
+
+.ui-state-active {
+
+}
+
