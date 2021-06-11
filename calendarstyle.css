@@ -63,7 +63,7 @@
 .ui-datepicker-current-day > * {
     background-color:hsl(261, 53%, 47%) !important;
     color:white !important;
-    background-color:hsl(261, 53%, 23%) !important;
+    background-color:#311c5a !important;
 }
 
 .ui-datepicker-current-day
