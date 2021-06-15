@@ -1,21 +1,22 @@
 /* styling for the whole calendar widget */
 
-* {
-    font-family: Lato, Arial, Helvetica, sans-serif !important;
+div.healcode a {
+    color: #fff;
 }
 
 .ui-datepicker {
     border-radius: 0% !important;
     padding:10px !important;
+    width: 50% !important;
 }
 
 /* ------------------------------ CALENDAR HEADER --------------------------- */
 /* calendar header */
-.ui-datepicker .ui-datepicker-header {
+.ui-datepicker-header {
     border: none !important;
     border-radius: 0% !important;
     background: none !important;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 /* ------------------------------ CALENDAR BODY --------------------------- */
@@ -67,13 +68,9 @@
 
 /* Current week starting on Today */
 .ui-datepicker-current-day > * {
-    background-color:hsl(261, 53%, 47%) !important;
+    background-color:black) !important;
     color:white !important;
 }
-
-.ui-datepicker-current-day
-
-
 
 /* Applies to Current date cell? */
 .ui-datepicker-days-cell-over > * {
