@@ -27,17 +27,24 @@
 
 /* Weekdays (table header) */
 .ui-datepicker th {
-    font-weight:normal !important;
+    font-weight:normal;
     font-size:11px;
 }
 
+.ui-datepicker-calendar >tbody > tr > td {
+    padding:auto;
+    vertical-align:middle;
+}
+
 .ui-datepicker-calendar >tbody > tr > td > * {
-    margin: auto;
-    width:16px;
+    margin-top:auto;
+    margin-bottom:auto;
+    height:24px;
+    width:24px;
     border-width:0;
     border-radius: 50%;
-    text-align: center;
-    vertical-align:middle;
+    text-align: center !important;
+    vertical-align:middle !important;
 }
 
 .ui-state-disabled, .ui-state-active, .ui-state-default, .ui-state-disabled, .ui-state-hover {
@@ -55,15 +62,13 @@
 
 /* Current day (cell) */
 .ui-datepicker-today > * {
-    background-color:black !important;
-    color:white !important;
+    font-weight:bold !important;
 }
 
 /* Current week starting on Today */
 .ui-datepicker-current-day > * {
     background-color:hsl(261, 53%, 47%) !important;
     color:white !important;
-    background-color:#311c5a !important;
 }
 
 .ui-datepicker-current-day
